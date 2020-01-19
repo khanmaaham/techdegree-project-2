@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+}
+
+.name{
+  list-style-type: none;
+  text-align: left;
+  display: block;
+}
+
+.main-nav li{
+display: inline-block;
+margin-left: 15px;
+text-align: right;
+}
