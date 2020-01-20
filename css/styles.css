@@ -1,0 +1,24 @@
+
+/*
+Base Element styles
+ */
+
+*{
+  box-sizing: border-box;
+}
+
+/*
+Base layout styles
+*/
+
+/*
+Media Queries
+*/
+
+@media (min-width: 320px) {
+  .container {
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
