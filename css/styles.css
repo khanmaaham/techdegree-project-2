@@ -1,0 +1,50 @@
+
+/*
+Base Element styles
+ */
+
+*{
+  box-sizing: border-box;
+}
+
+h1,h3, .con, h2{
+  text-align:center;
+}
+
+.top{
+  text-align: right;
+}
+
+.name{
+  margin-bottom: 9px;
+}
+.main-nav{
+  list-style: none;
+  text-align: center;
+}
+/*
+Base layout styles
+*/
+
+.marketing, .search, .travel, .map, .photo, .calcul{
+  width: 90%;
+
+}
+
+
+
+img{
+  min-height: 4%;
+}
+
+/*
+Media Queries
+*/
+
+@media (min-width: 320px) {
+  .container {
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
