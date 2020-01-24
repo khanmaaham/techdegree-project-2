@@ -1,0 +1,109 @@
+
+/*
+Base Element styles
+ */
+
+*{
+  box-sizing: border-box;
+}
+
+@media (min-width: 320px) {
+
+h1,h3, .con, h2{
+  text-align:center;
+}
+
+h1{
+  margin-top: 0;
+}
+.top{
+  text-align: right;
+}
+
+header{
+  background-color: lightgrey;
+}
+.name{
+  margin-bottom: 9px;
+}
+.main-nav{
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+}
+/*
+Base layout styles
+*/
+
+.marketing, .search, .travel, .map, .photo, .calcul{
+  width: 90%;
+
+}
+
+.name{
+  float: left;
+}
+
+.top{
+  float: right;
+}
+
+.clearfix{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+img{
+  min-height: 4%;
+  max-width: 100%;
+}
+
+  .container {
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .container{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .main-header{
+    background-color: lightgrey;
+    padding: 1em 0;
+  }
+
+.main-nav li{
+  display: inline-block;
+  width: 96px;
+  text-align: center;
+
+}
+
+.profile-image{
+  float: right;
+  margin-top: 49px;
+}
+
+.introduction{
+  margin-top:64px;
+}
+
+
+.clearfix{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+}
